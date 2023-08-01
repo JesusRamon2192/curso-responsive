@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Batata-Bit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@300;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 
 <body>
     <header>
-        <img src="./assets/img/logo.svg" alt="">
+        <img src="https://drive.google.com/uc?export=view&id=1EeXNF5X01Uc6KGTgmkzm3Q0irfN-1pCs" alt="">
         <div class="header--title--container">
             <h1>La proxima revolucion en el intercambio de criptomonedas</h1>
             <p>Batata te ayuda a navegar entre los diferentes precios y tendencias</p>
@@ -30,8 +31,8 @@
                 <p class="main-exchange-container--text">Traemos informacion en tiempo real de las casas de cambio y las
                     monedas mas importantes del mundo</p>
             </div>
-            <section class="main-tables-container">
-                <div class="main-currency-table">
+            <section class="main-tables-container main-tables-container--slider">
+                <div class="main-currency-table table--card">
                     <p class="currency-table--title">Monedas</p>
                     <div class="currency-table--container">
                         <table>
@@ -57,7 +58,7 @@
                         <p><b>Actualizado:</b> 19 Julio 23:45</p>
                     </div>
                 </div>
-                <div class="main-comission-table">
+                <div class="main-comission-table table--card">
                     <p class="comission-table--title">Comisiones</p>
                     <div class="comission-table--container">
                         <table>
@@ -128,18 +129,47 @@
             </div>
             <section class="plans-container--slider">
                 <article class="plans-container--card">
-                    <p>Recomendado</p>
-                    <div>
-                        <h3>Pago Anual</h3>
-                        <p><sup>$</sup> 99</p>
-                        <p>* Ahorras $129 comparado al plan mensual.</p>
-                        <button>Escoger este  <span></span></button>
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><sup>$</sup> 99</p>
+                        <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este  <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p class="recommended">Basico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><sup>$</sup> 10</p>
+                        <p class="plan-card--saving">* Algunas funciones no estan disponibles.</p>
+                        <button class="plan-card--ca">Escoger este  <span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card">
+                    <p class="recommended">VIP</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><sup>$</sup> 199</p>
+                        <p class="plan-card--saving">* Acceso ilimitado a todo y sorpresas cada mes.</p>
+                        <button class="plan-card--ca">Escoger este  <span></span></button>
                     </div>
                 </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="https://drive.google.com/uc?export=view&id=1Ivtvip_fRdi0za5ozUmMtBUcBrftHJPC" alt="Logo de Batatabit 2020"/>
+        </section>
+    </footer>
 </body>
 
 </html>
